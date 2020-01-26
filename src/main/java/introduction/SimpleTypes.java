@@ -24,9 +24,22 @@ public class SimpleTypes {
         System.out.println("Ilość Metrów i milimetrów to " + distans);
 
         boolean isPaid = false;
-        System.out.println("czy zapłacono rachunek? " + isPaid);
+        String isPaidTxt = isPaid ? "Tak" : "nie";
+        System.out.println("czy zapłacono rachunek? " + isPaidTxt);
         isPaid = true;
-        System.out.println("a może teraz już zapłacono? " + isPaid);
+        isPaidTxt = isPaid ? "Tak" : "nie";
+        System.out.println("a może teraz już zapłacono? " + isPaidTxt);
+
+        int index = 1;
+        String name = "Andrzej";
+        char aLetter = name.charAt(2);
+
+        System.out.println((index + 1) + " literka w imieniu " + name + " to " + aLetter);
+
+        String prefix = "An";
+        boolean isStartingWith = name.startsWith(prefix);
+        System.out.println(" Czy imię " + name + " zaczyna się od " + prefix + "? : " + isStartingWith);
+
 
     }
 }
