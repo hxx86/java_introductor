@@ -1,6 +1,7 @@
 package introduction;
 
 
+import java.math.MathContext;
 
 public class SimpleTypes {
 
@@ -39,7 +40,6 @@ public class SimpleTypes {
         String prefix = "An";
         boolean isStartingWith = name.startsWith(prefix);
         System.out.println(" Czy imię " + name + " zaczyna się od " + prefix + "? : " + isStartingWith);
-
 
     }
 }
