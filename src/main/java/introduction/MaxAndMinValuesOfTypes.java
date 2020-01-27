@@ -11,7 +11,7 @@ class Types {
             try {
                 type = scanner.nextLine().trim().toLowerCase();
             } catch (Exception e) {
-                System.out.println(e);
+                System.out.println('e');
             }
         }
         System.out.println("Select value: min, max:");
@@ -20,7 +20,7 @@ class Types {
             try {
                 value = scanner.next().trim().toLowerCase();
             } catch (Exception e) {
-                System.out.println(e);
+                System.out.println('e');
             }
         }
 
@@ -39,6 +39,7 @@ class Types {
         double doubleMinVal = Double.MIN_VALUE;
         double doubleMaxVal = Double.MAX_VALUE;
 
+        assert type != null;
         switch (type) {
             case "int":
                 if ("min".equals(value)) {
