@@ -21,7 +21,7 @@ public class Welcome
         sallary = 1.744D;
         System.out.print(sallary);
 
-        
+
     }
 }
 
