@@ -10,6 +10,18 @@ public class Welcome
         greeting[2] = "Nie bedzie tak strasznie";
         for (String g : greeting)
             System.out.println(g);
+
+        //poniżej użyłem zmiennych które sam zdeklarowałem
+
+        int vacationDays;
+        vacationDays = 12;
+        System.out.println(vacationDays);
+
+        double sallary;
+        sallary = 1.744D;
+        System.out.print(sallary);
+
+        
     }
 }
 
