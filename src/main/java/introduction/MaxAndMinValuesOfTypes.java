@@ -14,6 +14,7 @@ class Types {
                 System.out.println('e');
             }
         }
+        Object i;
         System.out.println("Select value: min, max:");
         String value = null;
         if (scanner.hasNext()) {

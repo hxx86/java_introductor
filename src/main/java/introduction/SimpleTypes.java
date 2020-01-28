@@ -1,8 +1,6 @@
 package introduction;
 
 
-import java.math.MathContext;
-
 public class SimpleTypes {
 
     public static void main(String[] args) {
