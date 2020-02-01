@@ -9,6 +9,8 @@ class Constant
         double paperHeight = 11;
         System.out.println("Rozmiar papieru w centymetrach: "
                 + paperWidth * CM_PER_INCH + " na " + paperHeight * CM_PER_INCH);
+
+
     }
 }
 
