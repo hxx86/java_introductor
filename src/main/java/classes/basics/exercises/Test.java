@@ -24,7 +24,11 @@ public class Test {
         pointCollection.addPoints(point2, point1);
         pointCollection.addPoints(new Point[] {point1, point2});
         pointCollection.addPoints(new Point(5.0D, 7.0D));
+        pointCollection.addPoints(new Point(5.0D, 12.0D));
+        pointCollection.addPoints(new Point(55.0D, 6.0D));
+        pointCollection.addPoints(new Point(67.0D, 7.0D));
         pointCollection.printAllPoints();
+        pointCollection.printStats();
 
     }
 }
