@@ -11,6 +11,7 @@ public class Exercise2 {
                 "Ola",
                 "Andrzej",
                 "Brunchilda",
+                "unchildana",
                 "Bożydar",
                 "Sławomir",
                 "Stanisław",
@@ -22,10 +23,43 @@ public class Exercise2 {
         1 wypisz imiona żeńskie
         2 wypisz imiona żeńskie niedłużesze niż 3 znaki
         3 wypisz imiona słowiańskie kończące się na "sław" lub "mir"
-        4 znajdz najdłużesze imię
+        4 znajdz najdłużesze imię mimo ze oba maja ta sama dlugosc Wtedy uzyj pętli
+
+          int longestNameLength = 0;
+
+        for (String name : names) {
+            if (longestNameLength < name.length()) {
+                longestNameLength = name.length();
+                for (String name: names ) {
+                    if longestNameLength == name.length()) {
+                        System.out.println(name);
+      ***********************************************************************************
+
+
+                        for i = 0;
+                        for ( ; ; ) {
+                            System.out.println(names[i]);
+                            i++;
+                            if ()
+                               break;
+                               LUB
+
+
+
+
 
          */
+
+       /* String newLine = System.lineSeparator();
+
+        String multilineString = "Ala ma kota " + newLine + " Ala ma mleko" + newLine + "ala ma marchewke ";
+        System.out.println(multilineString); */
+
+
+
         for (String name : names) {
+
+
             if (name.endsWith("a")) {
                 System.out.println(name + " to imie jest żeńskie ");
             } else {
@@ -63,7 +97,15 @@ public class Exercise2 {
             }
         }
         System.out.println("Najdłuższe imię/imiona to: " + longestName);
+            System.out.println("**************************************************************");
+
     }
+        for (int i = 0; i < names.length ; i++) {    //PETLA FOR Z ZATR
+            if (names[i].endsWith("mir")) {
+                break;
+            }
+            System.out.println(names[i]);
+        }
 
 
     }
