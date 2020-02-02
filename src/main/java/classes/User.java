@@ -1,4 +1,10 @@
 package classes;
 
-public class User {
+class User {
+    String name;
+    String lastname;
+    int age;
+
+
+
 }
