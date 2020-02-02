@@ -1,8 +1,4 @@
-package classes;
-
-import com.sun.jmx.snmp.SnmpUnknownAccContrModelException;
-
-import javax.jws.soap.SOAPBinding;
+package classes.basics;
 
 public class Test {
 

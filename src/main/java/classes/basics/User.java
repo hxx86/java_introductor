@@ -1,4 +1,4 @@
-package classes;
+package classes.basics;
 
 class User {
     String name;
