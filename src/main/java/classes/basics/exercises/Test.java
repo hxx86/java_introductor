@@ -2,15 +2,17 @@ package classes.basics.exercises;
 
 import classes.basics.User;
 
+import javax.naming.Name;
+
 public class Test {
 
     public static void main(String[] args) {
-        Point point1 = new Point(3.0D, 1.0D);
+        Point point1 = new Point(3.0D, 1.0D); //(parametry)
         Point point2 = new Point(4.0D, 7.0D);
 
         System.out.println("wypisanie punktu " + point2);
 
-        double distance =Point.distance(point1, point2);
+        double distance =Point.distance(point1, point2); //<=tu kozystam ze wzoru na dystans z klasy Point
         System.out.println(distance);
 
         distance = point1.distanceTo(point2);
@@ -29,6 +31,7 @@ public class Test {
         pointCollection.addPoints(new Point(67.0D, 7.0D));
         pointCollection.printAllPoints();
         pointCollection.printStats();
+
 
     }
 }
