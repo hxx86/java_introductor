@@ -9,11 +9,7 @@ public class User {
 //statyczna final int name okresla wartosc minimalna lubmakxymalna wartosci
     static final int MIN_AGE = 18;
 
-   public User(String name, String lastname, int age){
-        this.name=name;
-        this.lastname=lastname;
-        this.age=age;
-    }
+
 
 
 

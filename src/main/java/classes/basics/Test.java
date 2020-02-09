@@ -1,8 +1,8 @@
-package classes.basics;
+/*package classes.basics;
 
 public class Test {
 
-    public static void main(String[] args) {
+    public   static void main(String[] args) {
         String nazwisko = "Kowalski";
         User adam = new User("Adam", nazwisko, 17);
 //        adam.name = "Adam";
@@ -31,3 +31,5 @@ public class Test {
     }
 
 }
+//
+ */
